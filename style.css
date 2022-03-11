@@ -1,0 +1,29 @@
+body {
+    background-color: yellow;
+}
+h1 {
+    background-color: rgb(96, 138, 177);
+    color: aquamarine;
+}
+#showModal {
+    float: right;
+}
+canvas {
+    border: 10px solid rgb(126, 119, 58);
+    border-radius: 20px;
+    animation-name: anime;
+    animation-duration: 5s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes anime {
+    from{box-shadow: 1px 1px 100px blue;}
+    to{box-shadow: 100px 100px 50px red;}
+}
+p {
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: oblique;
+}
